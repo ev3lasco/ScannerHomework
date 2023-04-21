@@ -19,7 +19,7 @@ public class HomeworkScanner {
         int Qty = scan.nextInt();
         System.out.println();
         int Price = Qty * 2;
-        int Total = Price;
+        int Total = Price + n;
 
             if (n <= 4) {
                  System.out.println("You will be charged $2");
