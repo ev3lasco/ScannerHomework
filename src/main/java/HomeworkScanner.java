@@ -15,7 +15,6 @@ public class HomeworkScanner {
         System.out.println("What's the Product you want? We have: Rice, Beans it's $2 per lb");
         String product = scan.next();
         System.out.println("How many pounds?");
-        int x = 1;
         int Qty = scan.nextInt();
         System.out.println();
         int Price = Qty * 2;
